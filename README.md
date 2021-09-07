@@ -1,5 +1,21 @@
 # Make ConTeXt optional libraries
 
+## Get the repository and submodules
+
+Clone with
+
+```
+git clone --recursive
+```
+
+or after cloning run:
+
+```
+git submodule update --init
+```
+
+## Build the libraries
+
 For native platform:
 
 ```
