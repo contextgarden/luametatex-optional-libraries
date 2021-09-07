@@ -68,7 +68,14 @@ add_library(sqlite SHARED
         sqlite/sqlite3.c
 )
 
-install(TARGETS zint mujs sqlite
+add_library(lz4 SHARED
+	lz4/lib/lz4.c
+	lz4/lib/lz4frame.c
+	lz4/lib/lz4hc.c
+	lz4/lib/xxhash.c
+)
+
+install(TARGETS zint mujs sqlite lz4
         LIBRARY
         ARCHIVE
         RUNTIME

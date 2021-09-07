@@ -7,3 +7,6 @@
 [submodule "sqlite"]
 	path = sqlite
 	url = https://github.com/azadkuh/sqlite-amalgamation
+[submodule "lz4"]
+	path = lz4
+	url = https://github.com/lz4/lz4
