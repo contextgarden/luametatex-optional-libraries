@@ -60,7 +60,11 @@ add_library(zint SHARED
 target_compile_definitions(zint PRIVATE NO_PNG)
 target_link_libraries(zint -lm)
 
-install(TARGETS zint
+add_library(mujs SHARED
+	mujs/one.c
+)
+
+install(TARGETS zint mujs
         LIBRARY
         ARCHIVE
         RUNTIME

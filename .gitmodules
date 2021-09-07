@@ -1,3 +1,6 @@
 [submodule "zint"]
 	path = zint
 	url = https://github.com/woo-j/zint
+[submodule "mujs"]
+	path = mujs
+	url = http://git.ghostscript.com/mujs.git
