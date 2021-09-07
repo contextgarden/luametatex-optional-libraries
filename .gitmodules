@@ -4,3 +4,6 @@
 [submodule "mujs"]
 	path = mujs
 	url = http://git.ghostscript.com/mujs.git
+[submodule "sqlite"]
+	path = sqlite
+	url = https://github.com/azadkuh/sqlite-amalgamation

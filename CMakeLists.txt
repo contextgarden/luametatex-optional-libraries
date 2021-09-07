@@ -64,7 +64,11 @@ add_library(mujs SHARED
 	mujs/one.c
 )
 
-install(TARGETS zint mujs
+add_library(sqlite SHARED
+        sqlite/sqlite3.c
+)
+
+install(TARGETS zint mujs sqlite
         LIBRARY
         ARCHIVE
         RUNTIME
