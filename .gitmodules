@@ -3,7 +3,7 @@
 	url = https://github.com/woo-j/zint
 [submodule "mujs"]
 	path = mujs
-	url = http://git.ghostscript.com/mujs.git
+	url = https://git.ghostscript.com/mujs.git
 [submodule "sqlite"]
 	path = sqlite
 	url = https://github.com/azadkuh/sqlite-amalgamation
