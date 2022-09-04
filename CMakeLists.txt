@@ -12,9 +12,7 @@ add_library(zint SHARED
 	zint/backend/gs1.c
 	zint/backend/eci.c
 	zint/backend/general_field.c
-	zint/backend/sjis.c
-	zint/backend/gb2312.c
-	zint/backend/gb18030.c
+	zint/backend/bc412.c
 	# one dim
 	zint/backend/code.c
 	zint/backend/code128.c
