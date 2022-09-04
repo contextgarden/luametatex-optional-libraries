@@ -3,7 +3,7 @@
 	url = https://git.code.sf.net/p/zint/code
 [submodule "mujs"]
 	path = mujs
-	url = https://git.ghostscript.com/mujs.git
+	url = https://github.com/ccxvii/mujs
 [submodule "sqlite"]
 	path = sqlite
 	url = https://github.com/azadkuh/sqlite-amalgamation
