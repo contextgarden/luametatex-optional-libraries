@@ -27,7 +27,7 @@ ls build/*.so # or other
 Cross-compiling from Linux to Windows with mingw:
 
 ```
-cmake -S . -B build-w64 --toolchain cross-windows.cmake -DCMAKE_BUILD_TYPE=Release
+cmake -S . -B build-w64 --toolchain cmake/mingw-64.cmake -DCMAKE_BUILD_TYPE=Release
 cmake --build build-w64 -j10
 ls build-w64/*.dll
 ```
