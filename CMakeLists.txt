@@ -74,8 +74,8 @@ add_library(lz4 SHARED
 )
 
 install(TARGETS zint mujs sqlite lz4
-        LIBRARY
-        ARCHIVE
-        RUNTIME
-        INCLUDES
+        LIBRARY DESTINATION lib
+        ARCHIVE DESTINATION lib
+        RUNTIME DESTINATION lib
+        INCLUDES DESTINATION include
 )
