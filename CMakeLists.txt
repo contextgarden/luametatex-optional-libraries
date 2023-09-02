@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(context-optional-libraries C)
+project(luametatex-optional-libraries C)
 
 include(GNUInstallDirs)
 
