@@ -3,7 +3,7 @@ project(luametatex-optional-libraries C)
 
 include(GNUInstallDirs)
 
-add_library(zint SHARED
+add_library(zint MODULE
 	# common
 	zint/backend/common.c
 	zint/backend/library.c
@@ -58,15 +58,15 @@ add_library(zint SHARED
 target_compile_definitions(zint PRIVATE NO_PNG)
 target_link_libraries(zint -lm)
 
-add_library(mujs SHARED
+add_library(mujs MODULE
 	mujs/one.c
 )
 
-add_library(sqlite SHARED
+add_library(sqlite MODULE
         sqlite/sqlite3.c
 )
 
-add_library(lz4 SHARED
+add_library(lz4 MODULE
 	lz4/lib/lz4.c
 	lz4/lib/lz4frame.c
 	lz4/lib/lz4hc.c
