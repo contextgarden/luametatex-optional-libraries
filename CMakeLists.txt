@@ -55,7 +55,7 @@ add_library(zint MODULE
 	zint/backend/raster.c
 	zint/backend/output.c
 )
-target_compile_definitions(zint PRIVATE NO_PNG)
+target_compile_definitions(zint PRIVATE ZINT_NO_PNG)
 target_link_libraries(zint -lm)
 
 add_library(mujs MODULE
